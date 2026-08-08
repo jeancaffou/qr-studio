@@ -1,0 +1,23 @@
+{
+  "name": "qr-studio",
+  "version": "1.0.0",
+  "description": "A friendly, client-side QR code design studio.",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "quasar dev",
+    "build": "quasar build",
+    "preview": "quasar serve dist/spa"
+  },
+  "dependencies": {
+    "@quasar/extras": "^2.0.3",
+    "lz-string": "^1.5.0",
+    "qrcode-generator": "^2.0.4",
+    "quasar": "^2.24.0",
+    "vue": "^3.5.41",
+    "vue-router": "^5.2.0"
+  },
+  "devDependencies": {
+    "@quasar/app-vite": "^3.5.0"
+  }
+}
